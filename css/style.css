@@ -1,0 +1,159 @@
+html,body {
+    padding:0;
+    margin:0;
+    font-size:14px;
+}
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+.nav-link:hover{
+        color:white !important;
+        
+    }
+    .header{
+        padding:80px 0 80px;
+        min-height: 500px;
+        width:100%;
+        text-align: center;
+        background-image: url("../images/background.jpg");
+  background-repeat:no-repeat;
+  background-position:center center;
+background-size:cover;
+ color:#FFFFFF;
+    }
+    .d-block{
+        height: 300px;
+        width: 500px;
+    }
+    .row{
+        width:100%;
+        margin:0px;
+    }
+    .jumbotron{
+        margin-bottom: 0px;
+    }
+    .j2{
+        padding:0px;
+    }
+    .j2img::after { 
+     display: block;
+    position: relative;
+    background-image: linear-gradient(to right,#17a2b8, #1ba2b700, #17a2b854);
+    margin-top: -200px;
+    height: 200px;
+    width: 100%;
+    content: '';
+}
+
+img{
+    height: auto;
+}
+.rksize{
+    height: 200px;
+}
+.carousel{
+    margin:0px;
+    padding: 0px;
+}
+.carouselsize{
+    width:100%;
+}
+@media (max-width: 768px) {
+.jumbo-layer{
+    padding:0;
+    width:auto;
+}
+}
+/*Overriding display-4*/
+.jumbo-layer .display-4{
+    font-size: 2.5rem !important;
+}
+.jumbo-layer{
+       background-color: rgba(0,0,0,0.5);
+    padding: 20px 0 20px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+.head{
+    text-shadow: 0 -3px 0px rgba(41, 48, 59, 0.92);
+}
+.pg-color{
+    background-color: rgba(255,255,255,0.46);
+}
+.content-area{
+   position: relative;
+    height: auto;
+    margin: 16px 0px 16px 0px;
+}
+.card-deck{
+    margin:10px;
+}
+.content-area .card{
+    box-shadow: 0 2px 15px rgba(41, 48, 59, 0.62);
+}
+.card-text{
+    color:#17a2b8;
+}
+.animated{
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+}
+
+/*css for Academics section*/
+
+  
+  .card-header .btn-link:hover{
+      text-decoration: none;
+  }
+  
+  .card-header .btn-link:focus{
+      text-decoration: none;
+  }
+  
+  @media (max-width:466px ){
+      .card-header .btn-link{
+          font-size: 11px;
+      }
+      
+      .collapse .card-body{
+          font-size: 13px;
+      }
+      .card-header{
+          padding:0px;
+       }
+  }
+  
+  .card-body, .mb-0 {
+      text-align: center;
+  }
+  
+  /*for login page*/
+  
+  .bodyimg{
+      background-image: url("../images/background.jpg");
+      background-repeat: no-repeat;
+      background-size:contain;
+      
+  }
+  
+  /*This css is for usercontrol*/
+  
+  .section{
+      min-height:566px;
+  }
+ 
+  /*To check loginid*/
+  
+  .form-error{
+      color:red;
+  }
+  .form-errorbox{
+      box-shadow: 0px 3px 4px rgb(255, 0, 0);
+      border-color:red;
+  }
+  .form-success{
+      color:green;
+  }
